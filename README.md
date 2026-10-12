@@ -1,7 +1,7 @@
 | **Nama**  | Lisa Anastasya                 |
 | --------- | ------------------------------ |
 | **NIM**   | 12030124130086                 |
-| **Kelas** | Pengkodean dan Pemrograman (E) |
+| **Kelas** | Pengkodean dan Pemrograman (D) |
 
 # KostPay
 
