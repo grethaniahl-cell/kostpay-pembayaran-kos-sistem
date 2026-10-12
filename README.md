@@ -1,6 +1,6 @@
 # KostPay
 
-Sistem pembayaran kos sederhana dengan empat entitas: kamar, penghuni, tagihan, dan pembayaran.
+KostPay merupakan Sistem pembayaran kos sederhana dengan empat entitas: kamar, penghuni, tagihan, dan pembayaran.
 
 Demo Website: https://grethaniahl-cell.github.io/kostpay-pembayaran-kos-sistem/
 
