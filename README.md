@@ -1,6 +1,12 @@
+# Nama: Lisa Anastasya
+
+# NIM: 12030124130086
+
+# Kelas: Pengkodean dan Pemrograman (E)
+
 # KostPay
 
-KKostPay merupakan sistem pembayaran kos berbasis website yang dirancang untuk membantu pengelola kos dalam mengelola data kamar, penghuni, tagihan, dan pembayaran secara lebih terstruktur dan terintegrasi. Sistem ini menyediakan informasi mengenai ketersediaan kamar, data penghuni, status tagihan, serta riwayat pembayaran sehingga proses administrasi kos dapat dilakukan dengan lebih mudah.
+KostPay merupakan sistem pembayaran kos berbasis website yang dirancang untuk membantu pengelola kos dalam mengelola data kamar, penghuni, tagihan, dan pembayaran secara lebih terstruktur dan terintegrasi. Sistem ini menyediakan informasi mengenai ketersediaan kamar, data penghuni, status tagihan, serta riwayat pembayaran sehingga proses administrasi kos dapat dilakukan dengan lebih mudah.
 
 KostPay mengintegrasikan empat entitas utama, yaitu Kamar, Penghuni, Tagihan, dan Pembayaran. Setiap entitas saling berhubungan untuk mendukung pengelolaan administrasi dan pemantauan pembayaran kos.
 
