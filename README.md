@@ -1,15 +1,45 @@
 # KostPay
 
-KostPay merupakan Sistem pembayaran kos sederhana dengan empat entitas: kamar, penghuni, tagihan, dan pembayaran.
+KKostPay merupakan sistem pembayaran kos berbasis website yang dirancang untuk membantu pengelola kos dalam mengelola data kamar, penghuni, tagihan, dan pembayaran secara lebih terstruktur dan terintegrasi. Sistem ini menyediakan informasi mengenai ketersediaan kamar, data penghuni, status tagihan, serta riwayat pembayaran sehingga proses administrasi kos dapat dilakukan dengan lebih mudah.
+
+KostPay mengintegrasikan empat entitas utama, yaitu Kamar, Penghuni, Tagihan, dan Pembayaran. Setiap entitas saling berhubungan untuk mendukung pengelolaan administrasi dan pemantauan pembayaran kos.
 
 Demo Website: https://grethaniahl-cell.github.io/kostpay-pembayaran-kos-sistem/
 
-Fitur yang tersedia:
-- Dashboard terintegrasi dengan seluruh kegiatan pembayaran kos
-- Fitur kamar yang tersedia, terisi, atau diperbaiki yang otomatis disesuaikan dengan nama penghuni
-- Database penghuni kos
-- Tagihan tiap kamar, jatuh tempo, dan status pembayaran
-- Pembayaran penghuni kos yang sudah lunas
+1. Dashboard Terintegrasi
+
+Dashboard menyajikan ringkasan informasi utama terkait operasional pembayaran kos. Fitur ini membantu pengguna memahami kondisi pengelolaan kos tanpa harus membuka setiap bagian secara terpisah. Informasi yang ditampilkan terintegrasi dengan data kamar, penghuni, tagihan, dan pembayaran sesuai dengan informasi yang tersedia pada sistem.
+
+2. Manajemen Kamar
+
+Fitur kamar digunakan untuk memantau kondisi dan ketersediaan setiap kamar kos. Sistem menyediakan tiga status kamar:
+
+- Tersedia: kamar belum ditempati dan dapat digunakan oleh calon penghuni.
+- Terisi: kamar sedang ditempati oleh penghuni.
+- Diperbaiki: kamar sedang dalam proses perbaikan sehingga tidak tersedia untuk ditempati.
+
+Status kamar disesuaikan dengan informasi penghuni dan kondisi kamar yang tercatat dalam sistem. Dengan demikian, pengelola dapat lebih mudah mengidentifikasi kamar yang dapat digunakan maupun kamar yang sedang ditempati atau diperbaiki.
+
+3. Database Penghuni
+
+Fitur database penghuni digunakan untuk menyimpan dan mengelola informasi penghuni kos. Data penghuni terhubung dengan informasi kamar sehingga pengelola dapat mengetahui siapa yang menempati kamar tertentu. Keterkaitan ini juga mendukung pengelolaan tagihan dan pencatatan pembayaran berdasarkan penghuni atau kamar yang bersangkutan.
+
+4. Manajemen Tagihan
+
+Fitur tagihan membantu pengelola mencatat dan memantau kewajiban pembayaran sewa kos pada setiap kamar.
+
+Informasi yang dikelola meliputi:
+
+- Kamar yang memiliki tagihan.
+- Nominal tagihan.
+- Tanggal jatuh tempo.
+- Status pembayaran.
+
+Fitur ini membantu pengelola mengidentifikasi tagihan yang telah dibayar maupun yang masih perlu ditindaklanjuti. Informasi jatuh tempo juga mendukung pemantauan kewajiban pembayaran secara lebih teratur.
+
+5. Pencatatan Pembayaran
+
+Fitur pembayaran digunakan untuk mencatat pembayaran penghuni yang telah menyelesaikan kewajibannya. Pembayaran yang telah lunas dapat ditampilkan sebagai informasi transaksi yang sudah diselesaikan. Data tersebut membantu pengelola memantau penyelesaian tagihan dan menelusuri catatan pembayaran yang tersedia dalam sistem.
 
 
 ## Menjalankan frontend
