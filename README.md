@@ -2,6 +2,16 @@
 
 Sistem pembayaran kos sederhana dengan empat entitas: kamar, penghuni, tagihan, dan pembayaran.
 
+Demo Website: https://grethaniahl-cell.github.io/kostpay-pembayaran-kos-sistem/
+
+Fitur yang tersedia:
+- Dashboard terintegrasi dengan seluruh kegiatan pembayaran kos
+- Fitur kamar yang tersedia, terisi, atau diperbaiki yang otomatis disesuaikan dengan nama penghuni
+- Database penghuni kos
+- Tagihan tiap kamar, jatuh tempo, dan status pembayaran
+- Pembayaran penghuni kos yang sudah lunas
+
+
 ## Menjalankan frontend
 
 Buka `frontend/index.html` langsung di browser. Tidak memerlukan build tool atau library eksternal. Agar semua pengunjung langsung memakai project yang sama, isi `projectUrl` dan `publishableKey` sekali di `frontend/config.js` sebelum membagikan atau memublikasikan folder `frontend`. Pengaturan yang sudah tersimpan di browser tertentu tetap menjadi pilihan browser tersebut; tombol **Gunakan konfigurasi bawaan** menghapus pilihan lokal dan kembali ke nilai `config.js`.
